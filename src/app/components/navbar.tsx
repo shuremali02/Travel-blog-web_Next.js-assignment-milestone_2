@@ -1,45 +1,3 @@
-// "use client"
-// import Link from 'next/link'
-// import { useState } from 'react'
-// import { IoMdMenu } from "react-icons/io";
-// import { MdOutlineCancelPresentation } from "react-icons/md";
-
-// export default function Navbar() {
-//   const [isOpen,setIsOpen]=useState <boolean>(false)
-//   return (
-// <header className='bg-black text-white flex justify-between p-2  '>
-// <div>TravelBlog</div> 
-//   <div className='hidden gap-4 md:flex'> 
-//   <Link href={'/'} className='transform hover:scale-105' > Home
-//   </Link>
-//   <Link href={'/about'}  className='transform hover:scale-105' > About
-//   </Link>
-//   <Link href={'/contact'}  className='transform hover:scale-105' > Contact
-//   </Link>  
-//   <Link href={'/destination'}  className='transform hover:scale-105'> Destination
-//   </Link>
-//   </div>
-//   <div className='md:hidden'>
-// <button onClick={()=>setIsOpen(!isOpen)}> 
-//   {isOpen? <MdOutlineCancelPresentation/>:<IoMdMenu/> }
-// </button>
-
-//   </div>
-//   {isOpen&&<nav>
-//     <ul>
-//     <Link href={'/'} className='transform hover:scale-105' > Home
-//   </Link>
-//   <Link href={'/about'}  className='transform hover:scale-105' > About
-//   </Link>
-//   <Link href={'/contact'}  className='transform hover:scale-105' > Contact
-//   </Link>  
-//   <Link href={'/destination'}  className='transform hover:scale-105'> Destination
-//   </Link>
-//     </ul>
-//     </nav>}
-//   </header>
-//   )
-// }
 "use client"
 import Link from 'next/link'
 import { useState } from 'react'
@@ -50,8 +8,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <header className='bg-gray-300 text-black border border-b-black font-bold shadow-lg shadow-gray-900 flex justify-between p-4'>
-      <div>TravelBlog</div>
+    <header className='bg-gray-300 text-black border border-b-black font-bold shadow-lg shadow-gray-900 flex justify-between p-4 top-0 z-10 sticky'>
+      <Link href={'/'}>TravelBlog</Link>
 
       {/* Show navigation links on medium screens and larger */}
       <div className="hidden md:flex  gap-8 justify-between">
