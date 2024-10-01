@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="flex flex-col p-6 bg-gray-300">
             <h1 className="font-semibold text-lg mb-2">Stay Connected</h1>
             <p>Follow us on social media for the latest travel tips and updates:</p>
-            <Link href={"https://www.Linkedin.com/"} className="text-blue-400 hover:underline">Linkedin</Link>
+            <Link href={"https://www.linkedin.com/in/syed-shurem-ali-5a55852a0/"} className="text-blue-400 hover:underline">Linkedin</Link>
             <Link href={"https://www.facebook.com/"} className="text-blue-400 hover:underline">Facebook</Link>
             <Link href={"https://www.twitter.com/"} className="text-blue-400 hover:underline">Twitter</Link>
           </div>
