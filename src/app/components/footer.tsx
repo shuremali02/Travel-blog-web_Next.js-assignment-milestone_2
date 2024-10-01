@@ -21,9 +21,9 @@ export default function Footer() {
           <div className="flex flex-col p-6 bg-gray-300">
             <h1 className="font-semibold text-lg mb-2">Quick Links</h1>
             <Link href="/about" className="text-gray-700 hover:underline">About Us</Link>
-            <Link href="/blog" className="text-gray-700 hover:underline">Travel Blog</Link>
+            <Link href="/" className="text-gray-700 hover:underline">Travel Blog</Link>
             <Link href="/team" className="text-gray-700 hover:underline">Team</Link>
-            <Link href="/tours" className="text-gray-700 hover:underline">Tours & Packages</Link>
+            <Link href="/destination" className="text-gray-700 hover:underline">Tours & Packages</Link>
           </div>
 
           {/* Column 3: Stay Connected */}
