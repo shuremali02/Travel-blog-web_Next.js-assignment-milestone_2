@@ -55,7 +55,7 @@ export default function About() {
         </div>
         <div>
           <Image 
-            src="https://i.pinimg.com/236x/24/4a/18/244a1869576ddd02914eaa8cbabdd330.jpg " 
+            src="/about.jpg " 
             alt="Our travel experience" 
             width={500} 
             height={350} 
