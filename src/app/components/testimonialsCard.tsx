@@ -11,6 +11,7 @@ import { FaRegStar } from "react-icons/fa";
 
 export default function TestimonialsCard(props: TestimonialsProp) {
     return (
+        <div className='flex justify-center items-center'>
         <div className="w-full max-w-md h-auto bg-gray-100 border border-gray-300  broder-2 p-4 m-4">
             <div className="flex flex-col mb-2">
                 <p className="flex flex-row mb-2">
@@ -35,6 +36,7 @@ export default function TestimonialsCard(props: TestimonialsProp) {
                     <p > {props.designation}</p>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

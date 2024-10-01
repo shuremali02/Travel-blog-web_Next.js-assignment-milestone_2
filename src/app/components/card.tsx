@@ -14,7 +14,7 @@ export interface Cardprops {
 export default function TravelCards(props: Cardprops) {
 
     return (
-
+        <div className='flex justify-center items-center'>
         <div className='w-full max-w-md h-auto bg-white shadow-lg rounded-lg p-4  m-4   border border-gray-400'>
             <div className=' w-full h-[200px] relative mb-3'>
                 <Image src={props.image} alt={props.title} objectFit='cover' layout='fill' className='rounded-t-lg' />
@@ -36,6 +36,7 @@ export default function TravelCards(props: Cardprops) {
 
             </div>
 
+        </div>
         </div>
     )
 }
