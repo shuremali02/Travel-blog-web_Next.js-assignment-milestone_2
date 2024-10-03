@@ -92,7 +92,7 @@ export default function About() {
         <p className="text-lg text-gray-600 mb-6">
           Ready to start your next journey? Let us be your guide.
         </p>
-        <Link href="emailto:shuremsyed41@gmail.com">
+        <Link href='mailto:shuremsyed41@gmail.com'>
           <h3 className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition">
             Contact Us
           </h3>
